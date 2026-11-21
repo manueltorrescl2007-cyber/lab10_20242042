@@ -1,4 +1,6 @@
 package org.example.lab10.Servlet;
+import jakarta.servlet.annotation.WebServlet;
+import jakarta.servlet.http.HttpServlet;
 import org.example.lab10.Dtos.*;
 import java.io.IOException;
 import java.math.BigDecimal;
@@ -14,6 +16,7 @@ public class CursoServlet {
         private final CursoDTO nombre = new CursoDTO();
         private final CursoDTO credito = new CursoDTO();
         private final CursoDTO id_docente = new CursoDTO();
+
 
 
 
